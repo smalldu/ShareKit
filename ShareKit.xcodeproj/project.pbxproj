@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20AB43AC1EBF2DDE001B2556 /* ShareKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 20AB43AA1EBF2DDE001B2556 /* ShareKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20AB43B51EBF2DF3001B2556 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB43B21EBF2DF3001B2556 /* Constant.swift */; };
-		20AB43B61EBF2DF3001B2556 /* GroupFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB43B31EBF2DF3001B2556 /* GroupFileManager.swift */; };
-		20AB43B71EBF2DF3001B2556 /* ShareItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB43B41EBF2DF3001B2556 /* ShareItem.swift */; };
 		20AB43CE1EBF2FF6001B2556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AB43CD1EBF2FF6001B2556 /* UIKit.framework */; };
 		20AB43D01EBF300A001B2556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AB43CF1EBF300A001B2556 /* Foundation.framework */; };
-		20AB43D21EBF30A5001B2556 /* Constant.swift in Headers */ = {isa = PBXBuildFile; fileRef = 20AB43B21EBF2DF3001B2556 /* Constant.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		20AB43D31EBF30A5001B2556 /* GroupFileManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = 20AB43B31EBF2DF3001B2556 /* GroupFileManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		20AB43D41EBF30A5001B2556 /* ShareItem.swift in Headers */ = {isa = PBXBuildFile; fileRef = 20AB43B41EBF2DF3001B2556 /* ShareItem.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D330621EC2E2CE0045C435 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D3305E1EC2E2CE0045C435 /* Constant.swift */; };
+		20D330631EC2E2CE0045C435 /* GroupFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D3305F1EC2E2CE0045C435 /* GroupFileManager.swift */; };
+		20D330641EC2E2CE0045C435 /* ShareItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D330601EC2E2CE0045C435 /* ShareItem.swift */; };
+		20D330651EC2E2CE0045C435 /* ShareKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D330611EC2E2CE0045C435 /* ShareKit.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,13 +30,13 @@
 /* Begin PBXFileReference section */
 		202D1B581EC1B25A00464D7D /* ShareKit copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ShareKit copy-Info.plist"; path = "/Users/dz/ios_demo/201705/ShareKit/ShareKit copy-Info.plist"; sourceTree = "<absolute>"; };
 		20AB43A71EBF2DDE001B2556 /* ShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20AB43AA1EBF2DDE001B2556 /* ShareKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareKit.h; sourceTree = "<group>"; };
 		20AB43AB1EBF2DDE001B2556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20AB43B21EBF2DF3001B2556 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		20AB43B31EBF2DF3001B2556 /* GroupFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupFileManager.swift; sourceTree = "<group>"; };
-		20AB43B41EBF2DF3001B2556 /* ShareItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareItem.swift; sourceTree = "<group>"; };
 		20AB43CD1EBF2FF6001B2556 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		20AB43CF1EBF300A001B2556 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20D3305E1EC2E2CE0045C435 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		20D3305F1EC2E2CE0045C435 /* GroupFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupFileManager.swift; sourceTree = "<group>"; };
+		20D330601EC2E2CE0045C435 /* ShareItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareItem.swift; sourceTree = "<group>"; };
+		20D330611EC2E2CE0045C435 /* ShareKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +73,7 @@
 		20AB43A91EBF2DDE001B2556 /* ShareKit */ = {
 			isa = PBXGroup;
 			children = (
-				20AB43B21EBF2DF3001B2556 /* Constant.swift */,
-				20AB43B31EBF2DF3001B2556 /* GroupFileManager.swift */,
-				20AB43B41EBF2DF3001B2556 /* ShareItem.swift */,
-				20AB43AA1EBF2DDE001B2556 /* ShareKit.h */,
+				20D3305D1EC2E2CE0045C435 /* Classes */,
 				20AB43AB1EBF2DDE001B2556 /* Info.plist */,
 			);
 			path = ShareKit;
@@ -94,6 +88,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		20D3305D1EC2E2CE0045C435 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				20D3305E1EC2E2CE0045C435 /* Constant.swift */,
+				20D3305F1EC2E2CE0045C435 /* GroupFileManager.swift */,
+				20D330601EC2E2CE0045C435 /* ShareItem.swift */,
+				20D330611EC2E2CE0045C435 /* ShareKit.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -101,10 +106,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20AB43AC1EBF2DDE001B2556 /* ShareKit.h in Headers */,
-				20AB43D21EBF30A5001B2556 /* Constant.swift in Headers */,
-				20AB43D31EBF30A5001B2556 /* GroupFileManager.swift in Headers */,
-				20AB43D41EBF30A5001B2556 /* ShareItem.swift in Headers */,
+				20D330651EC2E2CE0045C435 /* ShareKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,9 +181,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20AB43B71EBF2DF3001B2556 /* ShareItem.swift in Sources */,
-				20AB43B51EBF2DF3001B2556 /* Constant.swift in Sources */,
-				20AB43B61EBF2DF3001B2556 /* GroupFileManager.swift in Sources */,
+				20D330641EC2E2CE0045C435 /* ShareItem.swift in Sources */,
+				20D330621EC2E2CE0045C435 /* Constant.swift in Sources */,
+				20D330631EC2E2CE0045C435 /* GroupFileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
